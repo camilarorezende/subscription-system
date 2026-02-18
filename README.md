@@ -1,10 +1,10 @@
 # Subscription System
 
--Sistema backend para gerenciamento de assinaturas recorrentes, permitindo que usuários assinem planos com cobrança semanal, mensal ou anual.
+Sistema backend para gerenciamento de assinaturas recorrentes, permitindo que usuários assinem planos com cobrança semanal, mensal ou anual.
 
 ---
 
-# Funcionalidades
+## Funcionalidades
 
 - Cadastro de usuários
 - Cadastro de planos
@@ -16,7 +16,7 @@
   
 ---
 
- # Regras de Negócio
+ ## Regras de Negócio
 
 - Usuário pode ter várias assinaturas
 - Usuário não pode ter duas assinaturas ativas para o mesmo plano
@@ -28,7 +28,7 @@
   
 ---
 
-# Arquitetura
+## Arquitetura
 
 O projeto segue arquitetura em camadas:
 
@@ -39,12 +39,12 @@ O projeto segue arquitetura em camadas:
   
 ---
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-Java 17+
-Spring Boot
-Spring Data JPA
-Hibernate
-ModelMapper
-Maven
-PostgreSQL
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- ModelMapper
+- Maven
+- PostgreSQL
